@@ -1,0 +1,39 @@
+section.genplan {
+    display: flex;
+    min-height: calc(100vh - 200px);
+    .table {
+        width: 400px;
+        margin: 100px;
+    }
+}
+
+.build {
+    fill: transparent;
+    stroke: transparent;
+    cursor: pointer;
+    fill-opacity: 0.2;
+    stroke-opacity: 0.3;
+    stroke-width: 3;
+    &:hover {
+        fill-opacity: 0.9;
+        stroke-opacity: 0.9;
+        transition: 0.2s;
+    }
+}
+
+#build-1 {
+    fill: #D63E2A; 
+    stroke: #B42222;
+}
+#build-2 {
+    fill: #EDAB03; 
+    stroke: #EDAB03;
+}
+#build-3 {
+    fill: #0C8C09; 
+    stroke: #0C8C09;
+}
+#build-4 {
+    fill: #07063C; 
+    stroke: #07063C;
+}
