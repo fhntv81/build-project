@@ -1,0 +1,19 @@
+<svg width="1280" height="852" viewBox="0 0 1280 852" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="Group 1">
+<rect id="Rectangle 1" width="1280" height="852" fill="#D9D9D9"/>
+<rect id="build-item" width="1280" height="852" fill="url(#pattern0)"/>
+<path id="stage 0" d="M201.5 698V661L446 651L915.5 677L922.5 802.5L589.5 822.5L479.5 829.5L167 816V772H185V698H201.5Z" stroke="black"/>
+<path id="stage 1" d="M205 658V585L449.5 562.5L914.5 616.5V672.5L449.5 648L205 658Z" stroke="black"/>
+<path id="stage 2" d="M210.5 583V510L445 477.5L908 553.5L910 613L445 559L210.5 583Z" stroke="black"/>
+<path id="stage 3" d="M210.5 506.5V431.5L444 390L909 495.5V551.5L444 472L210.5 506.5Z" stroke="black"/>
+<path id="stage 4" d="M210.5 428V348.5L444 300.5L906.5 428V491L444 386.5L210.5 428Z" stroke="black"/>
+<path id="stage 5" d="M212 344V274.5L451.5 215L906.5 365.5V423.5L444 295L212 344Z" stroke="black"/>
+<path id="stage6" d="M209.5 270V209.5L447 134.5L909 312.5V362L447 209.5L209.5 270Z" stroke="black"/>
+<path id="stage 7" d="M446 77.6769L274.5 141V128L234 114.5L318.5 82L296 76V65L345 47L375.5 57L478.5 21.5L513.5 39V28L893 217.5V228.5H875.5V263.5L906.5 277V297H918V311.5L446 128L208.5 204H201.5V184H217.5V161.5M446 77.6769L502 57V104L446 77.6769Z" stroke="black"/>
+</g>
+<defs>
+<pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image0_2_3" transform="scale(0.00078125 0.00117371)"/>
+</pattern>
+</defs>
+</svg>

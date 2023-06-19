@@ -1,0 +1,61 @@
+.blue-build {
+    @extend .genplan;
+}
+
+.blue-build-info {
+    @extend .genplan-info;
+}
+
+.building-info {
+    width: 600px;
+    margin: 50px 30px 50px 50px;
+    padding: 50px;
+    border-radius: 30px;
+    &_adress {
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    
+}
+
+
+.flats-info {
+    &_item {
+        padding: 20px 20px;
+        font-size: 20px;
+        border-radius: 15px;
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+.blue-build-info {
+    &_descriptions {
+        padding: 15px;
+    }
+}
+
+
+svg {
+    .stage {
+        cursor: pointer;
+        stroke: #353333;
+        stroke-opacity: 0.6;
+        fill: rgba(0, 255, 255, 0);
+        stroke-width: 1px;
+        transition: .4s;
+        &:hover {
+            fill: aqua;
+        }
+    }
+}
+
+.floor-link {
+    &.sold {
+       &:hover {
+            path {
+                cursor:not-allowed;
+            }
+        }
+    }
+}
