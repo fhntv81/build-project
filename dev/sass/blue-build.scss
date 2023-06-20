@@ -11,15 +11,25 @@
     margin: 50px 30px 50px 50px;
     padding: 50px;
     border-radius: 30px;
+    min-height: 300px;
     &_adress {
         text-align: center;
         margin-bottom: 15px;
     }
-    
+    h3 {
+        text-align: center;
+        font-size: 25px;
+        color: red;
+    }
 }
 
 
 .flats-info {
+    span {
+        font-size: 23px;
+        font-weight: 700;
+        color: firebrick;
+    }
     &_item {
         padding: 20px 20px;
         font-size: 20px;
@@ -31,7 +41,9 @@
 
 .blue-build-info {
     &_descriptions {
-        padding: 15px;
+        padding: 17px 12px;
+        font-size: 18px;
+        color: brown;
     }
 }
 
@@ -46,9 +58,11 @@ svg {
         transition: .4s;
         &:hover {
             fill: aqua;
+            stroke: transparent;
         }
     }
 }
+
 
 .floor-link {
     &.sold {

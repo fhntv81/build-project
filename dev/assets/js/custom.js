@@ -43,7 +43,7 @@ buildLink.forEach(link => {
 
 //floor 
 
-const floorItems = document.querySelectorAll('.stage');
+const stageItems = document.querySelectorAll('.stage');
 const floorValue = document.querySelector('#floor-value');
 const flatsValue = document.querySelector('#all-value');
 const freeValue = document.querySelector('#free-value');
@@ -52,24 +52,44 @@ const actionValue = document.querySelector('#action-value');
 const soldValue = document.querySelector('#sold-value');
 const blueBuildDescription = document.querySelector('.blue-build-info_descriptions');
 
-floorItems.forEach(item => {
+stageItems.forEach(item => {
     item.addEventListener('mouseover', function() {
-        const dataFloorNumber = getAttribute('data-floor-number');
-        const dataFlatsNumber = getAttribute('data-flats-number');
-        const dataFreeFlats = getAttribute('data-free-flats');
-        const dataBookingFlats = getAttribute('data-booking-flats');
-        const dataActionFlats = getAttribute('data-action-flats');
-        const dataSoldFlats = getAttribute('data-sold-flats');
-        const dataBuildDescription = getAttribute('data-build-description');    
-    })
-
-    setTimeout(function () {
+        const dataFloorNumber = item.getAttribute('data-floor-number');
         floorValue.innerHTML = dataFloorNumber;
+
+        const dataFlatsNumber = item.getAttribute('data-flats-number');
         flatsValue.innerHTML = dataFlatsNumber;
+
+        const dataFreeFlats = item.getAttribute('data-free-flats');
         freeValue.innerHTML = dataFreeFlats;
+
+        const dataBookingFlats = item.getAttribute('data-booking-flats');
         bookingValue.innerHTML = dataBookingFlats;
+
+        const dataActionFlats = item.getAttribute('data-action-flats');
         actionValue.innerHTML = dataActionFlats;
+
+        const dataSoldFlats = item.getAttribute('data-sold-flats');
         soldValue.innerHTML = dataSoldFlats;
+
+        const dataBuildDescription = item.getAttribute('data-build-description');    
+        blueBuildDescription.innerHTML = dataBuildDescription;
     })
 });
+
+const floorLink = document.querySelectorAll('.floor-link')
+ floorLink.forEach(link => {
+    console.log(link);
+
+    link.addEventListener('click', function(event) {
+        if (link.classList.contains('sold')) {
+            event.preventDefault();
+            alert('Этаж продан');
+         } else {
+            null
+        }
+    })
+   
+ });
+
 
