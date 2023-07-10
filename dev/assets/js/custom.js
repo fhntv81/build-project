@@ -1,11 +1,12 @@
 
+
 const buildItem = document.querySelectorAll('.build')
 const numberValue = document.querySelector('#number-value')
 const stageValue = document.querySelector('#stages-value')
 const flatValue = document.querySelector('#flats-value')
 const buildDescription = document.querySelector('.building-info_descriptions')
 
- 
+
 buildItem.forEach(item => {
     item.addEventListener('mouseover', function() {
         const dataBuildNumber = item.getAttribute('data-build-number');
@@ -91,5 +92,24 @@ const floorLink = document.querySelectorAll('.floor-link')
     })
    
  });
+ 
+ const flat = document.querySelectorAll('.flat');
+
+
+ flat.forEach(item => {
+   if (item.classList.contains('free')) {
+     item.querySelector('.status-text').innerHTML = "Свободна";
+   } else if (item.classList.contains('booking')) {
+     item.querySelector('.status-text').innerHTML = "Бронь";
+   } else if (item.classList.contains('action')) {
+     item.querySelector('.status-text').innerHTML = "Акция";
+   } else {
+     item.querySelector('.status-text').innerHTML = "Продано";
+   }  
+ });
+
+
+
+
 
 

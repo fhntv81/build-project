@@ -1,0 +1,51 @@
+.flat {
+    &.free {
+        .bg-status {
+            fill: #e2bc10;
+        }    
+    }
+    &.action {
+        .bg-status {
+            fill: #80D34E;
+        }
+    }
+    &.booking {
+        .bg-status {
+            fill: #6B68FF;
+        }
+    }
+    &.sold {
+        .bg-status {
+            fill: #D34E4E;
+        }
+    }
+    
+}
+
+
+.plan {
+    fill: #faebd700;
+    stroke: #faebd700;
+    cursor: pointer;
+
+    &.free-item:hover {
+        fill: #e2bb1067;
+        stroke: #e2bc10;
+        stroke-width: 4px;
+    }
+    &.booking-item:hover {
+        fill: #6b68ff48;
+        stroke: #6B68FF;
+        stroke-width: 4px;
+    }
+    &.action-item:hover {
+        fill: #81d34e67;
+        stroke: #80D34E;
+        stroke-width: 4px;
+    }
+    &.sold-item:hover {
+        fill: #d34e4e4b;
+        stroke: #D34E4E;
+        stroke-width: 4px;
+    }
+}
