@@ -19,7 +19,13 @@
             fill: #D34E4E;
         }
     }
-    
+    &.active {
+        .plan {
+            fill: rgb(46 186 186 / 31%);;
+            stroke: #0ee3e3c2;
+            stroke-width: 5px;
+        }
+    }
 }
 
 
@@ -37,6 +43,7 @@
         fill: #6b68ff48;
         stroke: #6B68FF;
         stroke-width: 4px;
+        cursor: no-drop;
     }
     &.action-item:hover {
         fill: #81d34e67;
@@ -47,5 +54,33 @@
         fill: #d34e4e4b;
         stroke: #D34E4E;
         stroke-width: 4px;
+        cursor: no-drop;
+    }
+}
+
+.floor-plan {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.flat-info {
+    display: flex;
+    padding: 36px 24px;
+}
+.flat-item {
+    padding: 16px;
+    border: 1px solid;
+    text-align: center;
+    font-size: 20px;
+    line-height: 1;
+    display: grid;
+    border-radius: 20px;
+    margin-right: 1px;
+    background-color: aliceblue;
+    opacity: 0.8;
+    b {
+        font-size: 24px;
+        margin-top: auto;
+        padding-top: 18px;
     }
 }

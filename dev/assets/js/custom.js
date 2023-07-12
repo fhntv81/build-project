@@ -93,6 +93,10 @@ const floorLink = document.querySelectorAll('.floor-link')
    
  });
  
+
+ // flat
+
+
  const flat = document.querySelectorAll('.flat');
 
 
@@ -108,8 +112,21 @@ const floorLink = document.querySelectorAll('.floor-link')
    }  
  });
 
+/*const flatSold = document.querySelector('.sold');
 
+flatSold.forEach(link => {
+  console.log(link);
 
+});
+
+link.addEventListener('mouseover', function(event) {
+    if (link.classList.contains('sold')) {
+      event.preventDefault();
+      alert('Этаж продан');
+    } else {
+      null
+    }
+  })*/
 
 
 
